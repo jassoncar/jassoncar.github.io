@@ -37,7 +37,7 @@ function simulateEmergency() {
     status: "emergencia",
     problem: "presión arterial",
     heart_rate: 72,
-    blood_pressure: { systolic: 200, diastolic: 139 },
+    blood_pressure: { systolic: 140, diastolic: 90 },
     timestamp: new Date().toLocaleString()
   });
   isEmergency = true;
